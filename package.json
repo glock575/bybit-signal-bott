@@ -1,0 +1,17 @@
+{
+  "name": "bybit-signal-bot",
+  "version": "1.0.0",
+  "description": "AI-powered Telegram bot for Bybit crypto signals",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.14.0",
+    "axios": "^1.6.0",
+    "ws": "^8.14.0",
+    "pg": "^8.11.0",
+    "dotenv": "^16.3.1"
+  }
+}
